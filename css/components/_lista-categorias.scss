@@ -1,0 +1,37 @@
+/* SECAO SUPERIOR */
+
+.superior__secao__container {
+  height: 72px;
+  color: var(--branco);
+  font-size: 16px;
+  background-color: var(--branco);
+  padding: 4px 20px 0 20px;
+  position: fixed;
+  top: 80px;
+  right: 0;
+  left: 0;
+  scrollbar-width:thin;
+  /* transition: transform 0.5s ease-in-out;
+    transform: translateX(0); */
+}
+
+.superior__secao__container-wrapper {
+  position: relative;
+}
+
+.superior__item {
+  color: var(--cinza-escuro);
+  font-size: 16px;
+  background-color: var(--cinza-claro);
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.superior__item:hover,
+.superior__item.active {
+  color: var(--branco);
+  background-color: var(--azul-destaque-light);
+  transition: 0.5s;
+}
